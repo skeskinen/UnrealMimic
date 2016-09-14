@@ -1,0 +1,288 @@
+﻿  mimicDll.cpp
+  cst_units.c
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\wavesynth\cst_units.c(237): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\wavesynth\cst_units.c(277): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\wavesynth\cst_units.c(517): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\wavesynth\cst_units.c(569): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  cst_sts.c
+  cst_sigpr.c
+  cst_reflpc.c
+  cst_diphone.c
+  cst_clunits.c
+  cst_wchar.c
+  cst_val_user.c
+  cst_val_const.c
+  cst_val.c
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\utils\cst_val.c(158): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  cst_url.c
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\utils\cst_url.c(78): warning C4101: 'url_request': unreferenced local variable
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\utils\cst_url.c(75): warning C4101: 'port': unreferenced local variable
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\utils\cst_url.c(77): warning C4101: 'fd': unreferenced local variable
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\utils\cst_url.c(81): warning C4101: 'state': unreferenced local variable
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\utils\cst_url.c(82): warning C4101: 'c': unreferenced local variable
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\utils\cst_url.c(81): warning C4101: 'n': unreferenced local variable
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\utils\cst_url.c(76): warning C4101: 'host': unreferenced local variable
+  cst_tokenstream.c
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\utils\cst_tokenstream.c(867): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\utils\cst_tokenstream.c(894): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\utils\cst_tokenstream.c(940): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+  cst_string.c
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\utils\cst_string.c(106): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+  cst_socket.c
+  cst_mmap_win32.c
+  cst_file_stdio.c
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\utils\cst_file_stdio.c(55): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\utils\cst_file_stdio.c(57): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\utils\cst_file_stdio.c(59): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\utils\cst_file_stdio.c(61): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\utils\cst_file_stdio.c(63): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\utils\cst_file_stdio.c(66): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note: see declaration of 'strcat'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\utils\cst_file_stdio.c(68): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\utils\cst_file_stdio.c(138): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1465): note: see declaration of 'vsprintf'
+  cst_features.c
+  cst_error.c
+  cst_endian.c
+  Generating Code...
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\utils\cst_tokenstream.c(895): warning C4700: uninitialized local variable 'p' used
+  Compiling...
+  cst_args.c
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\utils\cst_args.c(83): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+  cst_alloc.c
+  mimic.c
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\synth\mimic.c(391): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  cst_voice.c
+  cst_utt_utils.c
+  cst_synth.c
+  cst_ssml.c
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\synth\cst_ssml.c(204): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\synth\cst_ssml.c(207): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\synth\cst_ssml.c(211): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\synth\cst_ssml.c(215): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+  cst_phoneset.c
+  cst_ffeatures.c
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\synth\cst_ffeatures.c(209): warning C4133: 'return': incompatible types - from 'const cst_val_int *' to 'const cst_val *'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\synth\cst_ffeatures.c(211): warning C4133: 'return': incompatible types - from 'const cst_val_int *' to 'const cst_val *'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\synth\cst_ffeatures.c(246): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\synth\cst_ffeatures.c(552): warning C4133: '=': incompatible types - from 'const cst_val_void *' to 'const cst_val *'
+  cst_viterbi.c
+  cst_ss.c
+  cst_cart.c
+  rateconv.c
+  g72x.c
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\speech\g72x.c(284): warning C4244: '=': conversion from 'long' to 'short', possible loss of data
+  g723_40.c
+  g723_24.c
+  g721.c
+  cst_wave_utils.c
+  cst_wave_io.c
+  cst_wave.c
+  Generating Code...
+  Compiling...
+  cst_track_io.c
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\speech\cst_track_io.c(116): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\speech\cst_track_io.c(119): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  cst_track.c
+  cst_lpcres.c
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\speech\cst_lpcres.c(60): warning C4090: 'function': different 'const' qualifiers
+  regsub.c
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\regex\regsub.c(83): warning C4018: '<': signed/unsigned mismatch
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\regex\regsub.c(71): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+  regexp.c
+  cst_regex.c
+  cst_lts_rewrites.c
+  cst_lts.c
+  cst_lexicon.c
+  cst_utterance.c
+  cst_rel_io.c
+  cst_relation.c
+  cst_item.c
+  cst_ffeature.c
+  cst_vc.c
+  cst_spamf0.c
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\cg\cst_spamf0.c(127): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\cg\cst_spamf0.c(134): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\cg\cst_spamf0.c(144): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\cg\cst_spamf0.c(152): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  cst_mlsa.c
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\cg\cst_mlsa.c(139): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  cst_mlpg.c
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\cg\cst_mlpg.c(1040): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  cst_cg_map.c
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\cg\cst_cg_map.c(53): warning C4018: '<': signed/unsigned mismatch
+  cst_cg_load_voice.c
+  Generating Code...
+  Compiling...
+  cst_cg_dump_voice.c
+  cst_cg.c
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\cg\cst_cg.c(328): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\cg\cst_cg.c(370): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\cg\cst_cg.c(387): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\cg\cst_cg.c(393): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\cg\cst_cg.c(549): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\cg\cst_cg.c(563): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\cg\cst_cg.c(572): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  au_wince.c
+  au_streaming.c
+  au_none.c
+  au_command.c
+  auserver.c
+  audio.c
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\audio\audio.c(330): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\src\audio\audio.c(342): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  auclient.c
+  us_text.c
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_text.c(322): warning C4018: '<': signed/unsigned mismatch
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_text.c(706): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+  us_pos_cart.c
+  us_phrasing_cart.c
+  us_phoneset.c
+  us_nums_cart.c
+  us_int_tone_cart.c
+  us_int_accent_cart.c
+  us_gpos.c
+  us_ffeatures.c
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_ffeatures.c(103): warning C4133: '=': incompatible types - from 'const cst_val_void *' to 'const cst_val *'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_ffeatures.c(106): warning C4133: '=': incompatible types - from 'const cst_val_void *' to 'const cst_val *'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_ffeatures.c(131): warning C4133: '=': incompatible types - from 'const cst_val_void *' to 'const cst_val *'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_ffeatures.c(148): warning C4133: '=': incompatible types - from 'const cst_val_void *' to 'const cst_val *'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_ffeatures.c(151): warning C4133: '=': incompatible types - from 'const cst_val_void *' to 'const cst_val *'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_ffeatures.c(153): warning C4133: '=': incompatible types - from 'const cst_val_void *' to 'const cst_val *'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_ffeatures.c(155): warning C4133: '=': incompatible types - from 'const cst_val_void *' to 'const cst_val *'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_ffeatures.c(157): warning C4133: '=': incompatible types - from 'const cst_val_void *' to 'const cst_val *'
+  us_f0_model.c
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0_model.c(139): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0_model.c(149): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0_model.c(193): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0_model.c(197): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0_model.c(200): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0_model.c(201): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0_model.c(205): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+  us_f0lr.c
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(49): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(50): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(51): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(52): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(53): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(54): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(55): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(56): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(57): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(58): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(59): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(60): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(61): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(62): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(63): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(64): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(65): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(66): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(67): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(68): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(69): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(70): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(71): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(72): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(73): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(74): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(75): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(76): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(77): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(78): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(79): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(80): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(81): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(82): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(83): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(84): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(85): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(86): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(87): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(88): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(89): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(90): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(91): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(92): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(93): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(94): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(95): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(96): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(97): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(98): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(99): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(100): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(101): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(102): warning C4305: 'initializing': truncation from 'double' to 'const float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_f0lr.c(103): warning C4305: 'initializing': truncation from 'double' to 'const float'
+  Generating Code...
+  Compiling...
+  us_expand.c
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_expand.c(209): warning C4018: '<': signed/unsigned mismatch
+  us_dur_stats.c
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(41): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(42): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(43): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(44): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(45): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(46): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(47): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(48): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(49): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(50): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(51): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(52): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(53): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(54): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(55): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(56): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(57): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(58): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(59): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(60): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(61): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(62): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(63): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(64): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(65): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(66): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(67): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(68): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(69): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(70): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(71): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(72): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(73): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(74): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(75): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(76): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(77): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(78): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(79): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(80): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dxg\documents\unreal projects\unrealmimic\plugins\tts\unrealmimic\source\thirdparty\mimic\lang\usenglish\us_dur_stats.c(81): warning C4305: 'initializing': truncation from 'double' to 'float'
+  us_durz_cart.c
+  us_aswd.c
+  usenglish.c
+  cmu_postlex.c
+  cmu_lts_rules.c
+  cmu_lts_model.c
+  cmu_lex_entries.c
+  cmu_lex_data.c
+  cmu_lex.c
+  Generating Code...
+cmu_lex.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     Creating library lib\mimicDll.lib and object lib\mimicDll.exp
+  mimicDll.vcxproj -> C:\Users\dxg\Documents\Unreal Projects\UnrealMimic\Plugins\TTS\UnrealMimic\Source\ThirdParty\Mimic\lib\mimicDll.dll

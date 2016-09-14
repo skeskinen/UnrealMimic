@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.13",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "UnrealMimicTest",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

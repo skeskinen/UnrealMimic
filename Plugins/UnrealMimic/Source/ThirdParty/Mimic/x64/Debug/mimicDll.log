@@ -1,0 +1,18 @@
+﻿  cst_tokenstream.c
+src\utils\cst_tokenstream.c(146): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+src\utils\cst_tokenstream.c(579): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+src\utils\cst_tokenstream.c(610): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+src\utils\cst_tokenstream.c(635): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+src\utils\cst_tokenstream.c(643): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+src\utils\cst_tokenstream.c(684): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+src\utils\cst_tokenstream.c(727): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+src\utils\cst_tokenstream.c(878): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+src\utils\cst_tokenstream.c(895): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+src\utils\cst_tokenstream.c(867): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+src\utils\cst_tokenstream.c(894): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+src\utils\cst_tokenstream.c(940): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+d:\unrealmimic\plugins\unrealmimic\source\thirdparty\mimic\src\utils\cst_tokenstream.c(895): warning C4700: uninitialized local variable 'p' used
+  mimicDll.vcxproj -> D:\UnrealMimic\Plugins\UnrealMimic\Source\ThirdParty\Mimic\x64\Debug\mimicDll.lib

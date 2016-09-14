@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FAEFFFEB-D98F-4641-A0CF-04E31C8F90F2}</ProjectGuid>
+    <RootNamespace>mimicDll</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.25123.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>lib\</OutDir>
+    <IntDir>windows\build\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>lib\</OutDir>
+    <IntDir>windows\build\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;MIMICDLL_EXPORTS;NO_UNION_INITIALIZATION;CST_NO_SOCKETS;CST_AUDIO_WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <ExceptionHandling />
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <Link>
+      <ModuleDefinitionFile>Exports.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <AdditionalDependencies>C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\Winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;MIMICDLL_EXPORTS;NO_UNION_INITIALIZATION;CST_NO_SOCKETS;CST_AUDIO_WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <Link>
+      <ModuleDefinitionFile>Exports.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <AdditionalDependencies>C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\Winmm.lib;C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x64\Winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;MIMICDLL_EXPORTS;NO_UNION_INITIALIZATION;CST_NO_SOCKETS;CST_AUDIO_WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling />
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\Winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ModuleDefinitionFile>Exports.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;MIMICDLL_EXPORTS;NO_UNION_INITIALIZATION;CST_NO_SOCKETS;CST_AUDIO_WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\Winmm.lib;C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x64\Winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ModuleDefinitionFile>Exports.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="lang\cmulex\cmu_lex.c" />
+    <ClCompile Include="lang\cmulex\cmu_lex_data.c" />
+    <ClCompile Include="lang\cmulex\cmu_lex_entries.c" />
+    <ClCompile Include="lang\cmulex\cmu_lts_model.c" />
+    <ClCompile Include="lang\cmulex\cmu_lts_rules.c" />
+    <ClCompile Include="lang\cmulex\cmu_postlex.c" />
+    <ClCompile Include="lang\usenglish\usenglish.c" />
+    <ClCompile Include="lang\usenglish\us_aswd.c" />
+    <ClCompile Include="lang\usenglish\us_durz_cart.c" />
+    <ClCompile Include="lang\usenglish\us_dur_stats.c" />
+    <ClCompile Include="lang\usenglish\us_expand.c" />
+    <ClCompile Include="lang\usenglish\us_f0lr.c" />
+    <ClCompile Include="lang\usenglish\us_f0_model.c" />
+    <ClCompile Include="lang\usenglish\us_ffeatures.c" />
+    <ClCompile Include="lang\usenglish\us_gpos.c" />
+    <ClCompile Include="lang\usenglish\us_int_accent_cart.c" />
+    <ClCompile Include="lang\usenglish\us_int_tone_cart.c" />
+    <ClCompile Include="lang\usenglish\us_nums_cart.c" />
+    <ClCompile Include="lang\usenglish\us_phoneset.c" />
+    <ClCompile Include="lang\usenglish\us_phrasing_cart.c" />
+    <ClCompile Include="lang\usenglish\us_pos_cart.c" />
+    <ClCompile Include="lang\usenglish\us_text.c" />
+    <ClCompile Include="src\audio\auclient.c" />
+    <ClCompile Include="src\audio\audio.c" />
+    <ClCompile Include="src\audio\auserver.c" />
+    <ClCompile Include="src\audio\au_command.c" />
+    <ClCompile Include="src\audio\au_none.c" />
+    <ClCompile Include="src\audio\au_streaming.c" />
+    <ClCompile Include="src\audio\au_wince.c" />
+    <ClCompile Include="src\cg\cst_cg.c" />
+    <ClCompile Include="src\cg\cst_cg_dump_voice.c" />
+    <ClCompile Include="src\cg\cst_cg_load_voice.c" />
+    <ClCompile Include="src\cg\cst_cg_map.c" />
+    <ClCompile Include="src\cg\cst_mlpg.c" />
+    <ClCompile Include="src\cg\cst_mlsa.c" />
+    <ClCompile Include="src\cg\cst_spamf0.c" />
+    <ClCompile Include="src\cg\cst_vc.c" />
+    <ClCompile Include="src\hrg\cst_ffeature.c" />
+    <ClCompile Include="src\hrg\cst_item.c" />
+    <ClCompile Include="src\hrg\cst_relation.c" />
+    <ClCompile Include="src\hrg\cst_rel_io.c" />
+    <ClCompile Include="src\hrg\cst_utterance.c" />
+    <ClCompile Include="src\lexicon\cst_lexicon.c" />
+    <ClCompile Include="src\lexicon\cst_lts.c" />
+    <ClCompile Include="src\lexicon\cst_lts_rewrites.c" />
+    <ClCompile Include="src\regex\cst_regex.c" />
+    <ClCompile Include="src\regex\regexp.c" />
+    <ClCompile Include="src\regex\regsub.c" />
+    <ClCompile Include="src\speech\cst_lpcres.c" />
+    <ClCompile Include="src\speech\cst_track.c" />
+    <ClCompile Include="src\speech\cst_track_io.c" />
+    <ClCompile Include="src\speech\cst_wave.c" />
+    <ClCompile Include="src\speech\cst_wave_io.c" />
+    <ClCompile Include="src\speech\cst_wave_utils.c" />
+    <ClCompile Include="src\speech\g721.c" />
+    <ClCompile Include="src\speech\g723_24.c" />
+    <ClCompile Include="src\speech\g723_40.c" />
+    <ClCompile Include="src\speech\g72x.c" />
+    <ClCompile Include="src\speech\rateconv.c" />
+    <ClCompile Include="src\stats\cst_cart.c" />
+    <ClCompile Include="src\stats\cst_ss.c" />
+    <ClCompile Include="src\stats\cst_viterbi.c" />
+    <ClCompile Include="src\synth\cst_ffeatures.c" />
+    <ClCompile Include="src\synth\cst_phoneset.c" />
+    <ClCompile Include="src\synth\cst_ssml.c" />
+    <ClCompile Include="src\synth\cst_synth.c" />
+    <ClCompile Include="src\synth\cst_utt_utils.c" />
+    <ClCompile Include="src\synth\cst_voice.c" />
+    <ClCompile Include="src\synth\mimic.c" />
+    <ClCompile Include="src\utils\cst_alloc.c" />
+    <ClCompile Include="src\utils\cst_args.c" />
+    <ClCompile Include="src\utils\cst_endian.c" />
+    <ClCompile Include="src\utils\cst_error.c" />
+    <ClCompile Include="src\utils\cst_features.c" />
+    <ClCompile Include="src\utils\cst_file_stdio.c" />
+    <ClCompile Include="src\utils\cst_mmap_win32.c" />
+    <ClCompile Include="src\utils\cst_socket.c" />
+    <ClCompile Include="src\utils\cst_string.c" />
+    <ClCompile Include="src\utils\cst_tokenstream.c" />
+    <ClCompile Include="src\utils\cst_url.c" />
+    <ClCompile Include="src\utils\cst_val.c" />
+    <ClCompile Include="src\utils\cst_val_const.c" />
+    <ClCompile Include="src\utils\cst_val_user.c" />
+    <ClCompile Include="src\utils\cst_wchar.c" />
+    <ClCompile Include="src\wavesynth\cst_clunits.c" />
+    <ClCompile Include="src\wavesynth\cst_diphone.c" />
+    <ClCompile Include="src\wavesynth\cst_reflpc.c" />
+    <ClCompile Include="src\wavesynth\cst_sigpr.c" />
+    <ClCompile Include="src\wavesynth\cst_sts.c" />
+    <ClCompile Include="src\wavesynth\cst_units.c" />
+    <ClCompile Include="windows\mimicDll.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Exports.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\cst_alloc.h" />
+    <ClInclude Include="include\cst_args.h" />
+    <ClInclude Include="include\cst_audio.h" />
+    <ClInclude Include="include\cst_cart.h" />
+    <ClInclude Include="include\cst_cg.h" />
+    <ClInclude Include="include\cst_clunits.h" />
+    <ClInclude Include="include\cst_diphone.h" />
+    <ClInclude Include="include\cst_endian.h" />
+    <ClInclude Include="include\cst_error.h" />
+    <ClInclude Include="include\cst_features.h" />
+    <ClInclude Include="include\cst_ffeatures.h" />
+    <ClInclude Include="include\cst_file.h" />
+    <ClInclude Include="include\cst_hrg.h" />
+    <ClInclude Include="include\cst_item.h" />
+    <ClInclude Include="include\cst_lexicon.h" />
+    <ClInclude Include="include\cst_lts.h" />
+    <ClInclude Include="include\cst_lts_rewrites.h" />
+    <ClInclude Include="include\cst_phoneset.h" />
+    <ClInclude Include="include\cst_regex.h" />
+    <ClInclude Include="include\cst_relation.h" />
+    <ClInclude Include="include\cst_sigpr.h" />
+    <ClInclude Include="include\cst_socket.h" />
+    <ClInclude Include="include\cst_ss.h" />
+    <ClInclude Include="include\cst_string.h" />
+    <ClInclude Include="include\cst_sts.h" />
+    <ClInclude Include="include\cst_synth.h" />
+    <ClInclude Include="include\cst_tokenstream.h" />
+    <ClInclude Include="include\cst_track.h" />
+    <ClInclude Include="include\cst_units.h" />
+    <ClInclude Include="include\cst_utterance.h" />
+    <ClInclude Include="include\cst_utt_utils.h" />
+    <ClInclude Include="include\cst_val.h" />
+    <ClInclude Include="include\cst_val_const.h" />
+    <ClInclude Include="include\cst_val_defs.h" />
+    <ClInclude Include="include\cst_viterbi.h" />
+    <ClInclude Include="include\cst_voice.h" />
+    <ClInclude Include="include\cst_wave.h" />
+    <ClInclude Include="include\cst_wchar.h" />
+    <ClInclude Include="include\mimic.h" />
+    <ClInclude Include="lang\cmulex\cmu_lex.h" />
+    <ClInclude Include="lang\cmulex\cmu_lts_model.h" />
+    <ClInclude Include="lang\cmu_dari_lang\cmu_dari_lang.h" />
+    <ClInclude Include="lang\cmu_dari_lang\cmu_dari_phrasing_cart.h" />
+    <ClInclude Include="lang\cmu_dari_lex\cmu_dari_lex.h" />
+    <ClInclude Include="lang\cmu_dari_lex\cmu_dari_lex_lts_model.h" />
+    <ClInclude Include="lang\cmu_pashto_lang\cmu_pashto_lang.h" />
+    <ClInclude Include="lang\cmu_pashto_lang\cmu_pashto_phrasing_cart.h" />
+    <ClInclude Include="lang\cmu_pashto_lex\cmu_pashto_lex.h" />
+    <ClInclude Include="lang\cmu_pashto_lex\cmu_pashto_lts_model.h" />
+    <ClInclude Include="lang\usenglish\usenglish.h" />
+    <ClInclude Include="lang\usenglish\us_durz_cart.h" />
+    <ClInclude Include="lang\usenglish\us_f0.h" />
+    <ClInclude Include="lang\usenglish\us_ffeatures.h" />
+    <ClInclude Include="lang\usenglish\us_int_accent_cart.h" />
+    <ClInclude Include="lang\usenglish\us_int_tone_cart.h" />
+    <ClInclude Include="lang\usenglish\us_nums_cart.h" />
+    <ClInclude Include="lang\usenglish\us_phrasing_cart.h" />
+    <ClInclude Include="lang\usenglish\us_pos_cart.h" />
+    <ClInclude Include="lang\usenglish\us_regexes.h" />
+    <ClInclude Include="lang\usenglish\us_text.h" />
+    <ClInclude Include="src\audio\native_audio.h" />
+    <ClInclude Include="src\cg\cst_cg_map.h" />
+    <ClInclude Include="src\cg\cst_mlpg.h" />
+    <ClInclude Include="src\cg\cst_mlsa.h" />
+    <ClInclude Include="src\cg\cst_spamf0.h" />
+    <ClInclude Include="src\cg\cst_vc.h" />
+    <ClInclude Include="src\regex\cst_regex_defs.h" />
+    <ClInclude Include="src\speech\g72x.h" />
+    <ClInclude Include="windows\stdafx.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
