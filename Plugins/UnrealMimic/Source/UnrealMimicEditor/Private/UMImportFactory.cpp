@@ -1,9 +1,7 @@
 #include "UnrealMimicEditorModule.h"
 
 #include "UMImportFactory.h"
-#include "UnrealEd.h"
 #include "MimicVoice.h"
-
 
 UUMImportFactory::UUMImportFactory(const FObjectInitializer& ObjectInitializer)
 : Super(ObjectInitializer)

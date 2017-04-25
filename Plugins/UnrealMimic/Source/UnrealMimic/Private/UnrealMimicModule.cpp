@@ -1,9 +1,11 @@
 #include "UnrealMimicModule.h"
+#include "Modules/ModuleManager.h"
+
 #include "usenglish/usenglish.h"
 #include "cmulex/cmu_lex.h"
 
-//void usenglish_init(cst_voice *v);
-//cst_lexicon* cmulex_init(void);
+void usenglish_init(cst_voice *v);
+cst_lexicon* cmulex_init(void);
 
 class FUnrealMimicModule : public IUnrealMimicModule
 {

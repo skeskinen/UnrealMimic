@@ -1,9 +1,7 @@
 #pragma once
 
-#include "ModuleManager.h"
-
-#include "mimic.h"
-#include "cst_voice.h"
+#include "Modules/ModuleInterface.h"
+#include "Modules/ModuleManager.h"
 
 class IUnrealMimicEditorModule : public IModuleInterface
 {

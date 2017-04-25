@@ -1,7 +1,8 @@
 #include "UnrealMimicModule.h"
+
 #include "MimicVoice.h"
 #include "Sound/SoundWaveProcedural.h"
-#include "UnrealMemory.h"
+//#include "UnrealMemory.h"
 
 void UMimicVoice::Serialize(FArchive& Ar)
 {
