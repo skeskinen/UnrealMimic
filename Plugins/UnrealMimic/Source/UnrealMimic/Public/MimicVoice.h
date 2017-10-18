@@ -11,7 +11,7 @@
 
 #include "MimicVoice.generated.h"
 
-UCLASS(hidecategories=Object)
+UCLASS(hidecategories=Object, BlueprintType)
 class UNREALMIMIC_API UMimicVoice : public UObject
 {
 	GENERATED_BODY()
