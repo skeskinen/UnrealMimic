@@ -1,9 +1,8 @@
 {
-	"Changelist" : 3106830,
-	"BuildId" : "27d19e65-b462-4479-8e86-3835de54529c",
-	"Modules" : 
+	"BuildId": "4212847",
+	"Modules": 
 	{
-		"UnrealMimic" : "UE4Editor-UnrealMimic.dll",
-		"UnrealMimicEditor" : "UE4Editor-UnrealMimicEditor.dll"
+		"UnrealMimic": "UE4Editor-UnrealMimic.dll",
+		"UnrealMimicEditor": "UE4Editor-UnrealMimicEditor.dll"
 	}
 }
