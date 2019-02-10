@@ -134,7 +134,8 @@ USoundWaveProcedural* UMimicVoice::Say(FString Text)
 
 	//this stuff is needed so that the sound system beliefs we are actually going to give some data eventually (I think?)
 	//something related might cause the seemingly random halfway cutoff effect
-	SoundWave->SampleRate = feat_int(Vox->features, "sample_rate");
+	//SoundWave->SampleRate = feat_int(Vox->features, "sample_rate");
+	SoundWave->SetSampleRate(feat_int(Vox->features, "sample_rate"));
 	SoundWave->Duration = INDEFINITELY_LOOPING_DURATION; //possible leak? some reasonably big number instead?
 	SoundWave->NumChannels = 1; // can we get this from some feature?
 

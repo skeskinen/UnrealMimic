@@ -3,9 +3,10 @@ using UnrealBuildTool;
 
 public class MimicLib : ModuleRules
 {
-    public MimicLib(TargetInfo Target)
-	{
-		Type = ModuleType.External;
+    //public MimicLib(TargetInfo Target)
+    public MimicLib(ReadOnlyTargetRules Target) : base(Target)
+    {
+        Type = ModuleType.External;
 
         string RootPath = ModuleDirectory + "/";
         PublicSystemIncludePaths.AddRange(new string[] {

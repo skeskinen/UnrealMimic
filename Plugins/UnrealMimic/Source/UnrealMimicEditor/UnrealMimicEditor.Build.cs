@@ -2,8 +2,9 @@ using UnrealBuildTool;
 
 public class UnrealMimicEditor : ModuleRules
 {
-    public UnrealMimicEditor(TargetInfo Target)
-	{
+    //public UnrealMimicEditor(TargetInfo Target)
+    public UnrealMimicEditor(ReadOnlyTargetRules Target) : base(Target)
+    {
         PublicDependencyModuleNames.AddRange(
 			new string[] {
 				"Core",

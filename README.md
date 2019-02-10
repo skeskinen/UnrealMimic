@@ -2,7 +2,7 @@
 
 [Youtube preview video](https://youtu.be/TqPx2z758ig)
 
-Text-to-Speech plugin for UE4. Uses [Mimic library](https://github.com/MycroftAI/mimic) which is basically the same as Carnegie Mellon University's [Flite](http://www.festvox.org/flite/). Uses .flitevox files which should be relatively easy to find for free (e.g. from various university sites or [here](https://github.com/MycroftAI/mimic/tree/master/voices)) or train from your own recording with [Festvox](http://festvox.org/index.html).
+Text-to-Speech plugin for UE4 (Example Project is currently on 4.15, actual plugin is on 4.20.3). Uses [Mimic library](https://github.com/MycroftAI/mimic) which is basically the same as Carnegie Mellon University's [Flite](http://www.festvox.org/flite/). Uses .flitevox files which should be relatively easy to find for free (e.g. from various university sites or [here](https://github.com/MycroftAI/mimic/tree/master/voices)) or train from your own recording with [Festvox](http://festvox.org/index.html).
 
 How to use:
  * Copy plugins directory to your own project (Binary is 4.13, x64. I might not update it ever, we'll see)
